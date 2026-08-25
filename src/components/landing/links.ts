@@ -1,0 +1,16 @@
+export const LINKS = {
+  trial: "https://forms.gle/9gUstHj53Sg6DscN9",
+  main: "https://www.chaoperty.com/",
+  dchao: "https://dchao.chaoperty.com/welcome",
+  dchaoSignup: "https://dchao.chaoperty.com/signup",
+  dchaoTenant: "https://dchao.chaoperty.com/tenant/login",
+  dwork: "https://dwork.chaoperty.com/",
+  dworkAuth: "https://dwork.chaoperty.com/auth",
+  tamtam: "https://tamtam.chaoperty.com/",
+  tamtamRewards: "https://tamtam.chaoperty.com/rewards",
+  popspace: "https://popspace-spot-finder.lovable.app/",
+  popspaceOrganizer: "https://popspace-spot-finder.lovable.app/",
+  youtube: "https://www.youtube.com/@chaoperty",
+  tiktok: "https://www.tiktok.com/@chaoperty",
+  facebook: "https://www.facebook.com/ChaopertyApp/",
+} as const;
