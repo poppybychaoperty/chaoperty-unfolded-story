@@ -148,7 +148,7 @@ export async function wixApiRequest<T = unknown>(
       "Content-Type": "application/json",
       Authorization: token, // Wix expects the raw access token (no "Bearer " prefix)
     },
-    body: body !== undefined ? JSON.stringify(body) : undefined,
+    body: body !== undefined ? JSON.stringify(body) : null,
   });
 
   if (res.status === 402) {
