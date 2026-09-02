@@ -16,6 +16,7 @@ import { SocialProof } from "@/components/landing/social-proof";
 import { Tiers } from "@/components/landing/tiers";
 import { TrustBar } from "@/components/landing/partners";
 import { Workflow } from "@/components/landing/workflow";
+import { WixManageBanner } from "@/components/wix-manage-banner";
 
 const TITLE = "Chaoperty · ระบบบริหารพื้นที่เช่าเชิงพาณิชย์ครบวงจร";
 const DESCRIPTION =
@@ -68,6 +69,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-background">
+      <WixManageBanner />
       <SiteNav />
       <main>
         <Hero />
