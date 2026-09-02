@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "wix-docs": {
+      "source": "wix/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wix-docs/SKILL.md",
+      "computedHash": "f55d8121f8f54a9cdfa0b351041b52ac0c60abba44cc33dad76e29387a68ae1b"
+    },
+    "wix-vibe-headless": {
+      "source": "wix/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wix-vibe-headless/SKILL.md",
+      "computedHash": "dfbc211b609d799a5a42bc08606ee4f0931e19a0ce49a20ecce1dfe40c033c4e"
+    }
+  }
+}
